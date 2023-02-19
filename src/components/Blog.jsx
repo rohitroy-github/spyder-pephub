@@ -11,8 +11,8 @@ const Blog = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 300,
-    slidesToShow: 3,
+    speed: 500,
+    slidesToShow: 5,
     slidesToScroll: 1,
   };
   return (
@@ -24,9 +24,11 @@ const Blog = () => {
         {/* mappingOverBlogDataContents */}
         <div>
           <Slider {...settings}>
-            {BlogData.map((blog) => (
-              <HorizontalBlogCard key={blog.id} {...blog} />
-            ))}
+            <div>
+              {BlogData.map((blog) => (
+                <HorizontalBlogCard key={blog.id} {...blog} />
+              ))}
+            </div>
           </Slider>
         </div>
       </div>
