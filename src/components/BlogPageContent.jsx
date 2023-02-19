@@ -11,10 +11,10 @@ const BlogPage = () => {
       {/* latestSection */}
       <div className="latestSection">
         {/* heading */}
-        <div>
-          <p>Latest</p>
-          <p>Top</p>
-          <p>Your Interest</p>
+        <div className="flex">
+          <p className="text-2xl font-medium px-4">Latest</p>
+          <p className="text-2xl font-medium  px-4">Top</p>
+          <p className="text-2xl font-medium px-4">Your Interest</p>
         </div>
 
         <div>
@@ -25,7 +25,7 @@ const BlogPage = () => {
       </div>
 
       {/* separatingLine */}
-      <div class="separator"></div>
+      <div class="latestTrendingSeparator"></div>
 
       {/* trendingSection */}
       <div className="trendingSection">

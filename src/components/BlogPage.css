@@ -3,6 +3,7 @@
 .BlogPageMain {
   display: flex;
   flex-direction: row;
+  padding: 3%;
 }
 
 .latestSection {

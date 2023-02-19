@@ -24,11 +24,11 @@ const Blog = () => {
         {/* mappingOverBlogDataContents */}
         <div>
           {/* <Slider {...settings}> */}
-            <div className="flex ">
-              {BlogData.map((blog) => (
-                <HorizontalBlogCard key={blog.id} {...blog} />
-              ))}
-            </div>
+          <div className="flex">
+            {BlogData.map((blog) => (
+              <HorizontalBlogCard key={blog.id} {...blog} />
+            ))}
+          </div>
           {/* </Slider> */}
         </div>
       </div>

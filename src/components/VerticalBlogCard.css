@@ -1,0 +1,4 @@
+.verticalBlogCardMain {
+  display: flex;
+  flex-direction: row;
+}

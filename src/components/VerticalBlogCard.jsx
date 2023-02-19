@@ -1,11 +1,15 @@
 import React from "react";
 
+import blogImg from "../../assets/blog-1.png";
+
+import "./VerticalBlogCard.css";
+
 const VerticalBlogCard = ({heading, paragraph1, paragraph2, tags}) => {
   return (
-    <div>
+    <div className="verticalBlogCardMain">
       {/* image */}
       <div>
-        <img></img>
+        <img src={blogImg} className="h-25 w-48" />
       </div>
 
       {/* content */}
