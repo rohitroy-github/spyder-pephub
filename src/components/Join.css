@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.joinTopicBlogs {
+  padding: 15px;
+  background-color: #f9fafb;
+  font-family: 'Open Sauce Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 2%;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  width: 80%;
+}
+
+.startWritingNowBtn {
+  background-color: #1e40af;
+  border-radius: 4px;
+  padding: 2%;
+  color: #f9fafb;
+  font-family: 'Open Sauce Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+}

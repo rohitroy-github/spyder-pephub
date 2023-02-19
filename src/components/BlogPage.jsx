@@ -1,6 +1,7 @@
 import React from "react";
 
 import {BlogData} from "../constants";
+import VerticalBlogCard from "./VerticalBlogCard";
 
 const BlogPage = () => {
   return (
@@ -16,7 +17,7 @@ const BlogPage = () => {
 
         <div>
           {BlogData.map((blog) => (
-            <BlogCard key={blog.id} {...blog} />
+            <VerticalBlogCard key={blog.id} {...blog} />
           ))}
         </div>
       </div>

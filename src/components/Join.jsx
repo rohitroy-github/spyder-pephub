@@ -2,6 +2,8 @@ import React from "react";
 
 import joinbg from "../../assets/code_pattern 1.svg";
 
+import "./Join.css";
+
 const Join = () => {
   return (
     <>
@@ -19,16 +21,26 @@ const Join = () => {
               thousands like you prepare better for their goals.
             </h2>
 
-            <button className="pt-8">Start writing now!</button>
+            <button className="startWritingNowBtn mt-8">
+              Start writing now!
+            </button>
           </div>
         </div>
         <div className="pt-10">
           <h1 className="text-2xl font-medium ">Topics you can write on</h1>
 
-          <div>Cognizant Digital Nurture Technical Interview Experience</div>
-          <div>Cognizant Digital Nurture HR Interview Experience</div>
-          <div>TCS Digital Technical Interview Experience</div>
-          <div>TCS Ninja Technical Interview Experience</div>
+          <div className="joinTopicBlogs">
+            Cognizant Digital Nurture Technical Interview Experience
+          </div>
+          <div className="joinTopicBlogs">
+            Cognizant Digital Nurture HR Interview Experience
+          </div>
+          <div className="joinTopicBlogs">
+            TCS Digital Technical Interview Experience
+          </div>
+          <div className="joinTopicBlogs">
+            TCS Ninja Technical Interview Experience
+          </div>
         </div>
       </section>
     </>
