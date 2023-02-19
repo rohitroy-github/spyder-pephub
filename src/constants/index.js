@@ -15,25 +15,48 @@ import {
   star,
 } from "../assets";
 
-export const navLinks = [
+export const BlogData = [
   {
-    id: "home",
-    title: "Home",
+    id: "blog-1",
+    heading: "Blog - 1",
+    paragraph1: "by Prasun Das | 10 mins ago",
+    paragraph2:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie magna at convallis venenatis. Mauris ut felis pellentesque",
+    tags: "#tag1  #tag2  #tag3",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "blog-2",
+    heading: "Blog - 2",
+    paragraph1: "by Prasun Das | 10 mins ago",
+    paragraph2:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie magna at convallis venenatis. Mauris ut felis pellentesque",
+    tags: "#tag1  #tag2  #tag3",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "blog-3",
+    heading: "Blog - 3",
+    paragraph1: "by Prasun Das | 10 mins ago",
+    paragraph2:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie magna at convallis venenatis. Mauris ut felis pellentesque",
+    tags: "#tag1  #tag2  #tag3",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "blog-4",
+    heading: "Blog - 4",
+    paragraph1: "by Prasun Das | 10 mins ago",
+    paragraph2:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie magna at convallis venenatis. Mauris ut felis pellentesque",
+    tags: "#tag1  #tag2  #tag3",
+  },
+  {
+    id: "blog-5",
+    heading: "Blog - 5",
+    paragraph1: "by Prasun Das | 10 mins ago",
+    paragraph2:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie magna at convallis venenatis. Mauris ut felis pellentesque",
+    tags: "#tag1  #tag2  #tag3",
   },
 ];
-
 export const features = [
   {
     id: "feature-1",
@@ -55,51 +78,6 @@ export const features = [
     title: "Balance Transfer",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-];
-
-export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
-];
-
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
   },
 ];
 
