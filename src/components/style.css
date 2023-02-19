@@ -12,3 +12,15 @@
   height: 60vh;
   width: 100vw;
 }
+
+.Navbtn {
+  background-color: #1e40af;
+  border-radius: 4px;
+  padding: 10px;
+  color: #f9fafb;
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 100%;
+}
