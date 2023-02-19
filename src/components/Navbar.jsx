@@ -42,7 +42,7 @@ const Navbar = () => {
 
        <div className="sub-nav flex justify-around py-2">
          
-         <a href="" className="">
+         <a href="/blog" className="">
          Blogs
          </a>
 
