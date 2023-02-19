@@ -3,11 +3,13 @@ import React from "react";
 import {BlogData} from "../constants";
 import VerticalBlogCard from "./VerticalBlogCard";
 
+import "./BlogPage.css";
+
 const BlogPage = () => {
   return (
-    <div>
+    <div className="BlogPageMain">
       {/* latestSection */}
-      <div>
+      <div className="latestSection">
         {/* heading */}
         <div>
           <p>Latest</p>
@@ -23,10 +25,16 @@ const BlogPage = () => {
       </div>
 
       {/* separatingLine */}
-      <div></div>
+      <div class="separator"></div>
 
       {/* trendingSection */}
-      <div></div>
+      <div className="trendingSection">
+        <div className="trendingTags">#tag-1</div>
+        <div className="trendingTags">#tag-1</div>
+        <div className="trendingTags">#tag-1</div>
+        <div className="trendingTags">#tag-1</div>
+        <div className="trendingTags">#tag-1</div>
+      </div>
     </div>
   );
 };
