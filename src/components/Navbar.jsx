@@ -4,7 +4,7 @@ import dark from "../../assets/darkmode.svg";
 import search from "../../assets/search.svg";
 import lang from "../../assets/lang.svg"
 
-import './navbar.css';
+import './style.css';
 
 const Navbar = () => {
   return (

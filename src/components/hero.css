@@ -1,0 +1,10 @@
+.bg{
+  background-image: url("../../assets/Icon\ Grid\ 1.svg") ;
+  height: 80vh;
+}
+
+.hero-text{
+  color: #3B82F6;
+  font-size: 26px;
+  font-weight: 600;
+}
