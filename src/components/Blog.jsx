@@ -9,11 +9,13 @@ const Blog = () => {
       <div>
         <p>Latest Blogs</p>
         <div>Underline</div>
-      </div>
-      <div>
-        {BlogData.map((blog) => (
-          <BlogCard key={blog.id} {...blog} />
-        ))}
+
+        {/* mappingOverBlogDataContents */}
+        <div>
+          {BlogData.map((blog) => (
+            <BlogCard key={blog.id} {...blog} />
+          ))}
+        </div>
       </div>
     </>
   );
