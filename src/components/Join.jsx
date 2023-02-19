@@ -8,7 +8,7 @@ const Join = () => {
   return (
     <>
       <section className="join-section flex jutify-around">
-        <div className="pl-16 ">
+        <div className="pl-16 w-1/2 ">
           <div className="join-text pt-14">
             <h1 className="text-5xl font-semibold leading-[3rem]">
               Share your knowledge.
@@ -26,7 +26,7 @@ const Join = () => {
             </button>
           </div>
         </div>
-        <div className="pt-10">
+        <div className="pt-10 w-1/2">
           <h1 className="text-2xl font-medium ">Topics you can write on</h1>
 
           <div className="joinTopicBlogs">
