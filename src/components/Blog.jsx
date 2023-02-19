@@ -1,7 +1,7 @@
 import React from "react";
 
 import {BlogData} from "../constants";
-import BlogCard from "./BlogCard";
+import HorizontalBlogCard from "../components/HorizontalBlogCard";
 
 const Blog = () => {
   return (
@@ -13,7 +13,7 @@ const Blog = () => {
         {/* mappingOverBlogDataContents */}
         <div>
           {BlogData.map((blog) => (
-            <BlogCard key={blog.id} {...blog} />
+            <HorizontalBlogCard key={blog.id} {...blog} />
           ))}
         </div>
       </div>
