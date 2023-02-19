@@ -23,20 +23,4 @@ export const BlogData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie magna at convallis venenatis. Mauris ut felis pellentesque",
     tags: "#tag1  #tag2  #tag3",
   },
-  {
-    id: "blog-4",
-    heading: "Blog - 4",
-    paragraph1: "by Prasun Das | 10 mins ago",
-    paragraph2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie magna at convallis venenatis. Mauris ut felis pellentesque",
-    tags: "#tag1  #tag2  #tag3",
-  },
-  {
-    id: "blog-5",
-    heading: "Blog - 5",
-    paragraph1: "by Prasun Das | 10 mins ago",
-    paragraph2:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In molestie magna at convallis venenatis. Mauris ut felis pellentesque",
-    tags: "#tag1  #tag2  #tag3",
-  },
 ];

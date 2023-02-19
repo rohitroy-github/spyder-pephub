@@ -30,7 +30,7 @@ const Navbar = () => {
             <img src={lang} alt="" className="px-4" />
           </a>
 
-          <a href="" className="pr-8">
+          <a href="" className=" Navbtn mr-8">
              Start Preparing Now!
           </a>
 
@@ -42,7 +42,7 @@ const Navbar = () => {
 
        <div className="sub-nav flex justify-around py-2">
          
-         <a href="" className="">
+         <a href="/blog" className="">
          Blogs
          </a>
 
