@@ -2,3 +2,13 @@
   background-color: #EFF6FF;
 }
 
+.join-section{
+  background-image: url(../../assets/code_pattern\ 1.svg);
+  height: 70vh;
+}
+
+.footer{
+  background-image: url(../../assets/FooterBackground.png);
+  height: 60vh;
+  width: 100vw;
+}
